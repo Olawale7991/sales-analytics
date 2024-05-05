@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body-div{
+    padding: 80px 0 0 80px;
+    background-color: rgb(224,233,240);
+}
+
+.first-div{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(246,246,249); */
+    display: flex;
+    background-color: rgb(246,246,249);
+    border-radius: 15px;
+    
+}
+
+.child-div{
+   
+    width: 20%;
+    background-color: rgb(246,246,249);
+    margin-right: 20px;
+    border-top-left-radius: 20px;
+    padding: 30px 0 0 30px ;
+}
+
+.child-div ul li{
+    list-style: none;
+    line-height: 30px;
+   
+}
+
+.cross{
+    padding-left: 20px;
+}
+
+.dot{
+    width: 100%;
+    height: 5px;
+    color: rgba(128, 128, 128, 0.322);
+}
+
+.dash{
+    border-radius: 10px;
+    margin: 10px 0 10px 20px;
+    padding: 5px 10px;
+    width: 220px;
+    height: 30px;
+    background-color: white;
+    box-shadow: 0 1px rgba(128, 128, 128, 0.315);
+}
+
+.store{
+    color: gray;
+    font-size: 13px;
+    padding-left: 30px;
+}
+
+.second-div{
+    width: 80%;
+    padding: 60px 0 0 50px ;
+    background-color: white!important;
+    border: 2px solid rgba(0, 0, 0, 0.075);
+    border-top-right-radius: 30px black ;
+    margin-bottom: 30px;
+}
+
+.second-div h2{
+    font-size: 30px;
+}
+.second-div h4{
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.calendar{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.date{
+    font-size: 12px;
+    padding: 10px;
+    width:20%;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px rgba(128, 128, 128, 0.315);
+}
+    
+.dates{
+    font-size: 12px;
+    padding: 10px;
+    width:8%;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    border-radius: 5px;
+    box-shadow: 0 1px rgba(128, 128, 128, 0.315);
+}
+.month-div{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
+.month h6{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.568);
+}
+
+.green{
+    color: green;
+}
+
+.month{
+    font-size: 12px;
+    padding: 20px;
+    width:100%;
+    height: 20vh;
+    border: 1px solid rgba(128, 128, 128, 0.699);
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px rgba(128, 128, 128, 0.315);
+}
+    
